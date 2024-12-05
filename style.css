@@ -1,0 +1,254 @@
+body {
+    background-color: rgb(187, 189, 190);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 60px;
+  border-radius: 45% 10%;
+  box-shadow: 10px 5px 5px #6476d8;
+}
+
+.div {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    width: 226px;
+    height: 40px;
+    border-radius: 10px;
+    color: #1c1a19;
+    background-color: #e1be34;
+    border-style: ridge;
+    border-style: groove;
+    box-shadow: 10px 5px 5px #201620;
+}
+
+.nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(14, 18, 18);
+    color: beige;
+    position: fixed;
+    /*pour que ça ne bouge pas  */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 15%;
+    top: 0;
+}
+.navLinks{
+    display: flex;
+    gap: 77px; /* pour espacer  */
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 0px;
+    padding: revert;
+    box-sizing: border-box;
+    color: rgb(109, 215, 241);
+    text-shadow: #e1be34;
+    text-shadow: rgb(225, 185, 25) 1px 0 10px;
+}
+
+body{
+    overflow: scroll;
+    
+}
+
+h1{
+    color: rgb(16, 225, 65);
+    font-family: "Sixtyfour Convergence", sans-serif;
+    color: #e1be34;
+}
+h1 {
+  font-size: 3.1rem;    
+}
+
+#sec2-activités{
+display: flex;
+} 
+#sec2-activités img{
+width: 350px;
+gap: 2px;
+box-shadow: 20px 8px 8px #34343b;
+}
+
+
+/* La section témoignages commence ici */
+#sec3-témoignages{  
+        color: rgb(25, 23, 20);
+        border-radius: 25% 10%; 
+        border-radius: 10px 100px / 120px;    
+                    }
+
+#footer{
+display: flex;
+justify-content: space-around;
+background-color: rgb(4, 12, 12);
+/* color: rgb(221, 255, 127); */
+color: rgb(109, 215, 241);
+height: 450px;
+align-items: center;
+
+}
+
+#form{
+display: flex;
+flex-direction: column;
+}
+
+.photo{
+width: 30px;
+padding: 5px;
+}
+
+
+.input-seize{
+background-color: #d9d9d9;
+width: 135%;
+}
+
+#Messageee{
+width: 10%;
+background-color: aquamarine;
+}
+.seize-message{
+  background-color: #e4e2da;  
+  padding: 10%;
+  width: 119%;
+}
+
+#envoyer{   
+width: 50%;
+margin: 5%;
+padding: 2%;
+background-color: #13c6e3;  
+}
+
+
+.étoile{
+width: 20%;
+}
+#sec1-avantages-clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+#sec3-témoignages{
+   box-shadow: #d30a0a;
+}
+
+ /* {
+    margin: 0; 
+    margin: 0px;
+    padding: revert;  */
+/* essaie */
+
+/* box-sizing: border-box; */
+
+
+/* overflow-block: ;
+} */
+
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    padding: 1px;
+} */
+
+
+      /* h2{
+        margin-bottom: 10px;
+      }
+      .container p 
+        margin-bottom: 14px; */
+    
+/* main{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}  
+  text-wrap: nowrap;
+    max-width: 640px;
+    font-size: 16px;
+    text-wrap: nowrap;
+    width: fit-content;
+
+
+
+    exemple
+
+*/
+
+    .neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+
+/* Flickering animation 
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+  
+  /* Additional styling */
+    
+  /* h2 {
+   font-size: 1.8rem;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+  
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01;
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  } */
